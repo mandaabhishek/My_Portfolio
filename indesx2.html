@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhishek Manda | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="logo">AM.</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="about">
+    <div class="hero-left">
+      <p class="tagline">Hello, I'm</p>
+      <h1 class="title">Abhishek Manda</h1>
+      <h2 class="subtitle typewriter">
+        Computer Science Engineering Student
+      </h2>
+      <p class="hero-text">
+        Passionate about AI/ML, full-stack development, and building
+        intelligent applications that solve real-world problems.
+      </p>
+      <button class="btn" id="downloadResumeBtn">Download Resume (PDF)</button>
+    </div>
+
+    <div class="hero-right">
+      <div class="avatar-ring">
+        <!-- Replace src with your actual profile image path -->
+        <img src="profile_p (1).jpeg" alt="Abhishek profile" />
+      </div>
+      <div class="hero-badge">
+        ☁ Federated Learning | ⚙️ GRU | 🌐 Web Dev
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="section" id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="underline"></div>
+
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <h3>University College of Engineering, Osmania University</h3>
+        <p class="timeline-meta">B.E. in Computer Science & Engineering</p>
+        <p class="timeline-meta">CGPA: 7.51 (Nov 2022 – May 2026)</p>
+      </div>
+
+      <div class="timeline-item reveal">
+        <h3>Telangana Social Welfare Junior College, Sangareddy</h3>
+        <p class="timeline-meta">
+          Telangana State Board of Intermediate Education – 94%
+        </p>
+        <p class="timeline-meta">Jun 2020 – May 2022</p>
+      </div>
+
+      <div class="timeline-item reveal">
+        <h3>Telangana Social Welfare School, NagarKurnool</h3>
+        <p class="timeline-meta">SSC – CGPA: 10</p>
+        <p class="timeline-meta">Jun 2019 – May 2020</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section" id="experience">
+    <h2 class="section-title">Experience</h2>
+    <div class="underline"></div>
+
+    <div class="card reveal">
+      <h3>Undergraduate Research Intern</h3>
+      <p class="card-meta">
+        Center of Excellence AIML, Osmania University | May 2025 – Sep 2025
+      </p>
+      <h4>Privacy Preserving Purchase</h4>
+      <ul>
+        <li>
+          Designed a Federated Learning framework for privacy-preserving
+          purchase pattern analysis across retailers.
+        </li>
+        <li>
+          Applied Differential Privacy & Secure Aggregation to ensure
+          confidentiality.
+        </li>
+        <li>Achieved ~93% model accuracy with strong privacy compliance.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="underline"></div>
+
+    <div class="projects-grid">
+      <div class="card reveal">
+        <h3>StockCast</h3>
+        <p class="card-meta">
+          Python, TensorFlow, NumPy, Pandas, Matplotlib, scikit-learn,
+          yfinance, Tkinter
+        </p>
+        <ul>
+          <li>
+            GRU-based stock price prediction system with 94.8% accuracy
+            for 5-day forecasts.
+          </li>
+          <li>
+            Real-time data from Yahoo Finance with scaling + sliding
+            window preprocessing.
+          </li>
+          <li>
+            Tkinter GUI showing metrics (RMSE, MAE, R², MAPE) and graphs
+            of actual vs predicted trends.
+          </li>
+        </ul>
+      </div>
+
+      <div class="card reveal">
+        <h3>BookMart</h3>
+        <p class="card-meta">
+          PHP, MySQL, HTML, CSS, JavaScript
+        </p>
+        <ul>
+          <li>
+            Full online bookstore with login, search, cart, and order
+            checkout.
+          </li>
+          <li>
+            Secure authentication & authorization for customers and
+            admins.
+          </li>
+          <li>
+            Responsive UI and admin dashboard for managing products,
+            orders, and users.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section" id="skills">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="underline"></div>
+
+    <div class="chip-group">
+      <span class="chip">Java</span>
+      <span class="chip">Python</span>
+      <span class="chip">C</span>
+      <span class="chip">HTML</span>
+      <span class="chip">CSS</span>
+      <span class="chip">JavaScript</span>
+      <span class="chip">MySQL</span>
+      <span class="chip">Oracle SQL</span>
+      <span class="chip">Git</span>
+      <span class="chip">GitHub</span>
+      <span class="chip">pandas</span>
+      <span class="chip">NumPy</span>
+      <span class="chip">Matplotlib</span>
+      <span class="chip">DSA</span>
+      <span class="chip">OOP</span>
+      <span class="chip">DBMS</span>
+      <span class="chip">OS</span>
+      <span class="chip">Computer Networks</span>
+    </div>
+  </section>
+
+  <!-- Contact / Footer -->
+  <footer id="contact">
+  <h2 class="section-title">Let's Connect</h2>
+
+  <div class="contact-row">
+    <!-- Icons only, no names -->
+    <a href="https://github.com/mandaabhishek" target="_blank" class="contact-item">
+      <span class="icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="26">
+      </span>
+    </a>
+
+    <a href="https://instagram.com/your_profile_here" target="_blank" class="contact-item">
+      <span class="icon">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" width="26">
+      </span>
+    </a>
+
+    <a href="https://linkedin.com/in/mandaabhishek" target="_blank" class="contact-item">
+      <span class="icon">🔗</span>
+    </a>
+
+    <a href="mailto:mandaabhishek296@gmail.com" class="contact-item">
+      <span class="icon">✉️</span>
+    </a>
+
+    <a href="tel:+917396141721" class="contact-item">
+      <span class="icon">📱</span>
+    </a>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
