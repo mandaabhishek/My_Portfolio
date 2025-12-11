@@ -105,7 +105,7 @@ To run this portfolio on your machine:
 
 ```sh
 # Clone this repository
-git clone https://github.com/yourusername/Portfolio.git
+git clone https://github.com/mandaabhishek/My_Portfolio.git
 
 # Open folder
 cd Portfolio
